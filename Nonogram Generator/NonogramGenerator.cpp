@@ -140,6 +140,9 @@ void NonogramGenerator::generateImage(int zoomScale)
 	for (int i = 0; i < height; i += 5)
 		line(0, (i + dataHeight) * zoomScale, getwidth(), (i + dataHeight) * zoomScale);
 	line(0, 0, 0, getheight() - 1);
+	line(0, 0, getwidth() - 1, 0);
+	line(getwidth() - 1, 0, getwidth() - 1, getheight() - 1);
+	line(0, getheight() - 1, getwidth() - 1, getheight() - 1);
 	_ans = tableImage;
 	SetWorkingImage(currentWorkdevice);
 }
