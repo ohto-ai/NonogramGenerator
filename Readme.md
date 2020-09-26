@@ -41,9 +41,9 @@ Nonogram至今还未有正式或广泛流传的中文名称，已知的中文名
 
 ## 程序示例
 
-![mur_cat](Nonogram Generator/mur_cat.png)
+![mur_cat](Nonogram%20Generator/mur_cat.png)
 
-![table2](Nonogram Generator/table.bmp)
+![table2](Nonogram%20Generator/table.bmp)
 
-![ans2](Nonogram Generator/ans.bmp)
+![ans2](Nonogram%20Generator/ans.bmp)
 
