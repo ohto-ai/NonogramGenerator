@@ -4,7 +4,7 @@ int main()
 {
 	NonogramGenerator generator;
 	IMAGE image;
-	loadimage(&image, "mur_cat.png");
+	loadimage(&image, "sans.png");
 	generator.import(image, 50, 50);
 	generator.generateTabel();
 	generator.generateImage();
